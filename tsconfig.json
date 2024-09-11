@@ -3,15 +3,26 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
+    "expo-env.d.ts",
+    "app/(tabs)/(products)/_layout.jsx",
+    "app/(tabs)/(products)/add.jsx",
+    "app/(tabs)/(products)/index.jsx",
+    "app/(tabs)/_layout.jsx",
+    "app/(tabs)/checkout.jsx",
+    "app/(tabs)/customers.jsx",
+    "app/(tabs)/orders.jsx",
+    "app/(tabs)/reviews.jsx",
+    "app/(tabs)/settings.jsx",
+    "app/_layout.jsx",
+    "app/+html.jsx",
+    "app/+not-found.jsx",
+    "constants/Colors.js"
   ]
 }
