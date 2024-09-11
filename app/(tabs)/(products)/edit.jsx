@@ -120,7 +120,7 @@ export default function AddProduct() {
       );
       console.log(response, payload, "Response");
 
-      Alert.alert("Success", "Product saved successfully!");
+      Alert.alert("Success", "Product updated successfully!");
       router.back();
     } catch (error) {
       console.error(
